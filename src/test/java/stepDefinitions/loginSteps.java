@@ -2,7 +2,7 @@ package stepDefinitions;
 
 import BaseTest.BaseClass;
 import Pages.LoginPage;
-import io.cucumber.java.PendingException;
+//import io.cucumber.java.PendingException;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -42,7 +42,7 @@ public class loginSteps {
     }
     @Then("User will successfully login and navigate to business Page")
     public void user_will_successfully_login_and_navigate_to_business_page() {
-
+        System.out.println("Hello World");
     }
 
     @And("User Enters the valid <email> address and <Password>")
